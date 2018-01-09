@@ -12,9 +12,9 @@ class Artist
     @songs << song
   end
 
-  def add_song_by_name(title, genre)
-    song = Song.new(title, genre)
-    add_song(song)    
+  def add_song_by_name(title)
+    song = Song.new(title)
+    add_song(song)
   end
 
 end
