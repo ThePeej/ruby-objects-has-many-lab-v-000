@@ -5,3 +5,11 @@ class Artist
   def initialize
     @name = name
     @songs = []
+  end
+
+  def add_song(song)
+    @songs << songs
+    song.artist = self
+  end
+
+end
